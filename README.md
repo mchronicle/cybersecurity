@@ -50,6 +50,12 @@ Linux:
 | where Source == "MSSQLSERVER"<br/>
 | where RenderedDescription startswith "Login failed"</li><br/>
 
+<h2>Before Hardening:</h2>
+![Unsecured_Cloud_Honeynet_and_SOC](https://github.com/mchronicle/cybersecurity/assets/18021322/6c3e9c35-4534-427d-8019-46d72e796ea8)
+
+<h2>After Hardening</h2>
+![Hardened_Cloud_Honeynet_and_SOC](https://github.com/mchronicle/cybersecurity/assets/18021322/c0a8a585-ea69-461f-8d11-0e7ba6430400)
+
 
 <h2>Connect with me:</h2>
 <img align="left" alt="Michael Chronicle | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
