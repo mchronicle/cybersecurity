@@ -52,10 +52,9 @@ Linux:
 
 <h2>Before Hardening:</h2>
 <img src="Unsecured_Cloud_Honeynet_and_SOC.png">
-![Unsecured_Cloud_Honeynet_and_SOC](https://github.com/mchronicle/cybersecurity/assets/18021322/6c3e9c35-4534-427d-8019-46d72e796ea8)
 
 <h2>After Hardening</h2>
-![Hardened_Cloud_Honeynet_and_SOC](https://github.com/mchronicle/cybersecurity/assets/18021322/c0a8a585-ea69-461f-8d11-0e7ba6430400)
+<img src="Hardened_Cloud_Honeynet_and_SOC.png">
 
 
 <h2>Connect with me:</h2>
