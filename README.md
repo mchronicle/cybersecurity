@@ -51,10 +51,10 @@ Linux:
 | where RenderedDescription startswith "Login failed"</li><br/>
 
 <h2>Before Hardening:</h2>
-<img src="Unsecured_Cloud_Honeynet_and_SOC.png">
+<img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
 
 <h2>After Hardening</h2>
-<img src="Hardened_Cloud_Honeynet_and_SOC.png">
+<img src="Hardened_Cloud_Honeynet_and_SOC_rev.png">
 
 
 <h2>Connect with me:</h2>
