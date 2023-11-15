@@ -58,6 +58,13 @@ Linux:
 | where EventLog == "Application" and Source == "MSSQLSERVER" and RenderedDescription startswith "Login failed"</p>
 <img src="mssql-auth-fail.PNG">
 
+<h2>KQL script for Windows RDP Auth Fail with Attack Map:</h2>
+<p>SecurityEvent
+| where EventID == 4625
+| count
+</p>
+<img src="windows-rdp-smb-auth-fail_before.PNG">
+
 <h2>KQL script for NSG Inbound Malicious Flows Allowed with Attack Map:</h2>
 <p>AzureNetworkAnalytics_CL 
 | where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0
