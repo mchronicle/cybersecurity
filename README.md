@@ -53,10 +53,17 @@ Linux:
 <h2>Before Hardening:</h2>
 <img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
 
-<h2>KQL Query with Attack Map:</h2>
+<h2>KQL script for MSSQL Server with Attack Map:</h2>
 <p>Event
 | where EventLog == "Application" and Source == "MSSQLSERVER" and RenderedDescription startswith "Login failed"</p>
 <img src="mssql-auth-fail.PNG">
+
+<h2>KQL script for NSG Inbound Malicious Flows Allowed with Attack Map:</h2>
+<p>AzureNetworkAnalytics_CL 
+| where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0
+| where TimeGenerated >= ago(24h)
+| count</p>
+<img src="nsg-malicious-allowed-in.PNG">
 
 <h2>After Hardening</h2>
 <img src="Hardened_Cloud_Honeynet_and_SOC_rev.png">
