@@ -54,7 +54,9 @@ Linux:
 <img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
 
 <h2>KQL Query with Attack Map:</h2>
-<img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
+<p>Event
+| where EventLog == "Application" and Source == "MSSQLSERVER" and RenderedDescription startswith "Login failed"</p>
+<img src="mssql-auth-fail.PNG">
 
 <h2>After Hardening</h2>
 <img src="Hardened_Cloud_Honeynet_and_SOC_rev.png">
