@@ -53,6 +53,9 @@ Linux:
 <h2>Before Hardening:</h2>
 <img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
 
+<h2>KQL Query with Attack Map:</h2>
+<img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
+
 <h2>After Hardening</h2>
 <img src="Hardened_Cloud_Honeynet_and_SOC_rev.png">
 
