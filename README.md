@@ -59,8 +59,8 @@ Linux:
 <img src="mssql-auth-fail.PNG">
 
 <h2>KQL script for Windows RDP Auth Fail with Attack Map:</h2>
-<p>SecurityEvent
-| where EventID == 4625
+<p>SecurityEvent<br/>
+| where EventID == 4625<br/>
 | count
 </p>
 <img src="windows-rdp-smb-auth-fail_before.PNG">
