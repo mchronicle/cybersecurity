@@ -53,11 +53,6 @@ Linux:
 <h2>Before Hardening:</h2>
 <img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
 
-<h2>KQL script for MSSQL Server with Attack Map:</h2>
-<p>Event<br/>
-| where EventLog == "Application" and Source == "MSSQLSERVER" and RenderedDescription startswith "Login failed"</p>
-<img src="mssql-auth-fail.PNG">
-
 <h2>KQL script for Windows RDP Auth Fail with Attack Map:</h2>
 <p>SecurityEvent<br/>
 | where EventID == 4625<br/>
@@ -72,9 +67,13 @@ Linux:
 | count</p>
 <img src="nsg-malicious-allowed-in.PNG">
 
+<h2>KQL script for MSSQL Server with Attack Map:</h2>
+<p>Event<br/>
+| where EventLog == "Application" and Source == "MSSQLSERVER" and RenderedDescription startswith "Login failed"</p>
+<img src="mssql-auth-fail.PNG">
+
 <h2>After Hardening</h2>
 <img src="Hardened_Cloud_Honeynet_and_SOC_rev.png">
-
 
 <h2>Connect with me:</h2>
 <img align="left" alt="Michael Chronicle | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
