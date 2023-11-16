@@ -54,7 +54,7 @@ Linux:
 <img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
 
 <h2>KQL script for MSSQL Server with Attack Map:</h2>
-<p>Event
+<p>Event<br/>
 | where EventLog == "Application" and Source == "MSSQLSERVER" and RenderedDescription startswith "Login failed"</p>
 <img src="mssql-auth-fail.PNG">
 
@@ -66,9 +66,9 @@ Linux:
 <img src="windows-rdp-smb-auth-fail_before.PNG">
 
 <h2>KQL script for NSG Inbound Malicious Flows Allowed with Attack Map:</h2>
-<p>AzureNetworkAnalytics_CL 
-| where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0
-| where TimeGenerated >= ago(24h)
+<p>AzureNetworkAnalytics_CL<br/>
+| where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0<br/>
+| where TimeGenerated >= ago(24h)<br/>
 | count</p>
 <img src="nsg-malicious-allowed-in.PNG">
 
