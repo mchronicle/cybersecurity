@@ -72,6 +72,12 @@ Linux:
 | where EventLog == "Application" and Source == "MSSQLSERVER" and RenderedDescription startswith "Login failed"</p>
 <img src="mssql-auth-fail.PNG">
 
+<h2>KQL script for Syslog SSH Auth Fail with Attack Map:</h2>
+<p>Syslog<br/>
+| where SyslogMessage contains "Mike"<br/>
+| order by TimeGenerated desc<br/>
+<img src="syslog-ssh-auth-fail_before.PNG">
+
 <h2>After Hardening</h2>
 <img src="Hardened_Cloud_Honeynet_and_SOC_rev.png">
 
