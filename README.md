@@ -53,7 +53,7 @@ Linux:
 <h2>Before Hardening:</h2>
 <img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
 
-<h2>KQL script for Windows RDP Auth Fail with Attack Map:</h2>
+<h2>KQL script for Windows RDP Auth Fail with Attack Map (24HR Period):</h2>
 <p>SecurityEvent<br/>
 | where EventID == 4625<br/>
 | count
