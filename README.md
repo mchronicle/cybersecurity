@@ -29,16 +29,9 @@
 - Ingested CSV files that consisted of IP Address blocks along with locations (country, latitude and longitude) into Sentinel from Azure Storage for my attack map<br/>
 <p>Ran multiple queries using KQL (Kusto Query Language) after the logs were configured in Log Analytics Workspace</p>
 
-<p>Used PowerShell to ssh into the Linux VM in order to create failed login attempt logs:</p>
-Linux:
-<li>Syslog<br/>
-| where SyslogMessage contains "Mike"<br/>
-| order by TimeGenerated desc</li><br/>
-<p>Used Microsoft Sequel Server to log into the database in order to create failed login attempt logs:</p>
-<li>Event<br/>
-| where EventLog == "Application"<br/>
-| where Source == "MSSQLSERVER"<br/>
-| where RenderedDescription startswith "Login failed"</li><br/>
+<h2>Tested failed logins using:</h2>
+<li>Microsoft Sequel Server to log into the database</li>
+<li>PowerShell to ssh into the Linux VM</li>
 
 <h2>Before Hardening:</h2>
 <img src="Unsecured_Cloud_Honeynet_and_SOC_rev.png">
