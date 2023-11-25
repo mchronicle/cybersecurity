@@ -3,7 +3,7 @@
 <h4>My name is Michael Chronicle.  I'm having a great time learning about Cybersecurity along with some of the software used in the space. Please reach out if you have any questions.<br/></h4>
 <h4><a href="https://github.com/mchronicle/cybersecurity">Cyber Security Project</a><br/> <a href="https://www.linkedin.com/in/michael-chronicle/">Cyber Security Professional - LinkedIn</a></h4>
 
-<h2>Cybersecurity Project Using Microsoft Azure and Sentinel:</h2>
+<h2>Security Operations Center (SOC) and Honeynet Using Microsoft Azure and Sentinel:</h2>
 <p>In this project, I created a honeynet using Microsoft Azure. I have included the steps below:<br/>
 - Created an Azure account<br/>
 - Created one subscription<br/>
