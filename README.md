@@ -13,7 +13,7 @@
 <li>Linux VM</li><br/>
 - Deployed one VM in a different region and a different Virtual Network<br/>
 <li>Windows VM (used as an attack VM against the previously mentioned VMs for testing)</li></p>
-<p>All with the Security type being Standard in order to ensure vulnerability</p><br/>
+<p>This was configured with the Security type being Standard in order to ensure vulnerability</p><br/>
 - Configured the Firewall in Network Security Group (NSG) to let all traffic in<br/>
 - All ports were left open<br/>
 - Logged into the Windows VM via Remote Desktop Protocol (RDP) and changed the Firewall state to Off<br/>
