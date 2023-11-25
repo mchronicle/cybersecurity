@@ -28,14 +28,7 @@
 - Created Sentinel<br/>
 - Ingested CSV files that consisted of IP Address blocks along with locations (country, latitude and longitude) into Sentinel from Azure Storage for my attack map<br/>
 <p>Ran multiple queries using KQL (Kusto Query Language) after the logs were configured in Log Analytics Workspace</p>
-Windows:
-<li>SecurityEvent<br/>
-| where EventID == 4625<br/>
-| count</li><br/>
-<li>SecurityEvent<br/>
-| where EventID == 4625 and Account == '\\ADMINISTRATOR'<br/>
-| where TimeGenerated > ago(10m)<br/>
-| count</li><br/>
+
 Network Security Group logs:
 <li>AzureNetworkAnalytics_CL<br/>
 | where FlowType_s == "MaliciousFlow"</li><br/>
@@ -56,6 +49,11 @@ Linux:
 <h2>KQL script for Windows RDP Auth Fail with Attack Map (24HR Period):</h2>
 <p>SecurityEvent<br/>
 | where EventID == 4625<br/>
+| count
+</p>
+<p>SecurityEvent<br/>
+| where EventID == 4625 and Account == '\\ADMINISTRATOR'<br/>
+| where TimeGenerated > ago(10m)<br/>
 | count
 </p>
 <img src="windows-rdp-smb-auth-fail_before.PNG">
