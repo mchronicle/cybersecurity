@@ -75,10 +75,13 @@
 <img src="Hardened_Cloud_Honeynet_and_SOC_rev.png">
 
 <h2>Spreadsheet Comparison Showing Before and After</h2>
-<h2>Before Harderning</h2>
+<h2>Before Hardening</h2>
 <img src="before_securing_environment.png">
 
-<h2>After Harderning</h2>
+<h2>After Hardening</h2>
+<img src="after_securing_environment.png">
+
+<h2>Changes in Percentage Once Hardened</h2>
 <img src="secured_percentages.png">
 
 <h2>Connect with me:</h2>
