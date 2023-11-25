@@ -29,9 +29,6 @@
 - Ingested CSV files that consisted of IP Address blocks along with locations (country, latitude and longitude) into Sentinel from Azure Storage for my attack map<br/>
 <p>Ran multiple queries using KQL (Kusto Query Language) after the logs were configured in Log Analytics Workspace</p>
 
-Network Security Group logs:
-<li>AzureNetworkAnalytics_CL<br/>
-| where FlowType_s == "MaliciousFlow"</li><br/>
 <p>Used PowerShell to ssh into the Linux VM in order to create failed login attempt logs:</p>
 Linux:
 <li>Syslog<br/>
@@ -62,7 +59,12 @@ Linux:
 <p>AzureNetworkAnalytics_CL<br/>
 | where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0<br/>
 | where TimeGenerated >= ago(24h)<br/>
-| count</p>
+| count
+</p>
+
+<p>AzureNetworkAnalytics_CL<br/>
+| where FlowType_s == "MaliciousFlow"<br/>
+</p>
 <img src="nsg-malicious-allowed-in.PNG">
 
 <h2>KQL script for MSSQL Server with Attack Map (24HR Period):</h2>
