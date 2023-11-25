@@ -74,6 +74,13 @@
 <h2>After Hardening</h2>
 <img src="Hardened_Cloud_Honeynet_and_SOC_rev.png">
 
+<h2>Spreadsheet Comparison Showing Before and After</h2>
+<h2>Before Harderning</h2>
+<img src="before_securing_environment.png">
+
+<h2>After Harderning</h2>
+<img src="secured_percentages.png">
+
 <h2>Connect with me:</h2>
 <img align="left" alt="Michael Chronicle | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 <a href="https://www.linkedin.com/in/michael-chronicle/">LinkedIn Profile</a><br/>
