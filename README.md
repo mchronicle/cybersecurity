@@ -60,19 +60,19 @@ Linux:
 </p>
 <img src="windows-rdp-smb-auth-fail_before.PNG">
 
-<h2>KQL script for NSG Inbound Malicious Flows Allowed with Attack Map:</h2>
+<h2>KQL script for Network Security Group Inbound Malicious Flows Allowed with Attack Map (24HR Period):</h2>
 <p>AzureNetworkAnalytics_CL<br/>
 | where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0<br/>
 | where TimeGenerated >= ago(24h)<br/>
 | count</p>
 <img src="nsg-malicious-allowed-in.PNG">
 
-<h2>KQL script for MSSQL Server with Attack Map:</h2>
+<h2>KQL script for MSSQL Server with Attack Map (24HR Period):</h2>
 <p>Event<br/>
 | where EventLog == "Application" and Source == "MSSQLSERVER" and RenderedDescription startswith "Login failed"</p>
 <img src="mssql-auth-fail.PNG">
 
-<h2>KQL script for Syslog SSH Auth Fail with Attack Map:</h2>
+<h2>KQL script for Syslog SSH Auth Fail with Attack Map (24HR Period):</h2>
 <p>Syslog<br/>
 | where SyslogMessage contains "Mike"<br/>
 | order by TimeGenerated desc<br/>
