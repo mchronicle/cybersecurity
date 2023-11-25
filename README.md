@@ -84,6 +84,8 @@
 <h2>Changes in Percentage Once Hardened:</h2>
 <img src="secured_percentages.png">
 
+<p>Thank you for visiting. Please reach out if you have any questions. Stay vigilant my friends!</p>
+
 <h2>Connect with me:</h2>
 <img align="left" alt="Michael Chronicle | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 <a href="https://www.linkedin.com/in/michael-chronicle/">LinkedIn Profile</a><br/>
