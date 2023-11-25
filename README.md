@@ -87,5 +87,5 @@
 <h2>Connect with me:</h2>
 <img align="left" alt="Michael Chronicle | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 <a href="https://www.linkedin.com/in/michael-chronicle/">LinkedIn Profile</a><br/>
-<p>Resume:</p>
+<p>Resume<a href="https://github.com/mchronicle/cybersecurity/blob/main/michael_chronicle_resume_11-25-2023.pdf"</a></p>
 
